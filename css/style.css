@@ -1,0 +1,1473 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+========================================================================== */
+
+
+
+
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+/*-------------------- Custom CSS --------------------*/
+   
+body{
+	font-family:'Roboto', sans-serif;
+    background: #4C687B;
+    padding: 4% 0 0;
+}
+a,a:hover{
+	text-decoration:none;
+}
+img{
+	max-width:100%;
+}
+.alignleft{
+	float:left;
+	margin-right:15px;
+}
+.alignright{
+	float:right;
+	margin-left:15px;
+}
+.aligncenter{
+	float:none;
+	margin:0 auto;
+}
+
+/******* ---- Header st-header Style ---- *******/
+
+#st-header{}
+.container{}
+
+#menu-bar{}
+
+.navbar-brand {
+  background: none repeat scroll 0 0 #56ccc8;
+  width: 55px;
+  outline: none;
+}
+.navbar-brand:hover, .navbar-brand:focus{
+    background: none repeat scroll 0 0 #56ccc8 !important;
+    outline: none;
+}
+#justify {
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+
+nav#bar{}
+#barnav-left {}
+#barnav-left li{}
+#barnav-left li a {
+  color: #475055;
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#barnav-left li a, #search, #icone, #user{
+    -webkit-transition: color 0.3s linear 0s;
+    -moz-transition: color 0.3s linear 0s;
+    -o-transition: color 0.3s linear 0s;
+    -ms-transition: color 0.3s linear 0s;
+    transition: color 0.3s linear 0s;
+}
+
+#barnav-right{}
+#barnav-right li{}
+#barnav-right li:first-child{}
+#leftright {
+  border-left: 1px solid #dde2e4;
+  border-right: 1px solid #dde2e4;
+}
+#barnav-right li a{
+    outline: none;
+}
+#barnav-right li a:hover, #barnav-right li a:focus, #icone:hover, #icone:focus, #user:hover, #user:focus, #search:hover,#search:focus, #barnav-left li a:hover, #barnav-left li a:focus, #active{
+    color: #56CCC8;
+    outline: none;
+    -webkit-transition: color 0.3s linear 0s;
+    -moz-transition: color 0.3s linear 0s;
+    -o-transition: color 0.3s linear 0s;
+    -ms-transition: color 0.3s linear 0s;
+    transition: color 0.3s linear 0s;
+}
+
+#search {
+  color: #b4bbbf;
+  font-size: 18px;
+  font-weight: 100;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#icone {
+  font-size: 17px;
+  color: #B2B9BD;
+  padding: 0 12px;
+  line-height: 19px;
+}
+#user{
+    font-size: 17px;
+    color: #B2B9BD;
+    line-height: 19px;
+    padding-left: 10px;
+}
+
+
+/******* ---- Common St-section Class Style ---- *******/
+#st-section-1, #st-section-2, #st-section-3, #st-section-4 {
+    margin-bottom: 20px;
+}
+
+/******* ---- St-section-1 Style ---- *******/
+#st-section-1 {}
+
+/******* ---- Menus-left Style ---- *******/
+.menus-left {
+  margin-left: 0%;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%
+}
+.menus-left-part-1{}
+
+/******* ---- Menus-left-part-1-11 Style ---- *******/
+.menus-left-part-1-11 {
+  background: #FFFFFF;
+}
+#none-mobile-menu{}
+#none-mobile-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#none-mobile-menu ul li {
+  border-bottom: 1px solid #dde2e4;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+#none-mobile-menu ul li a {
+  color: #636a6e;
+  font-size: 15px;
+  height: auto;
+  padding: 19px 15px;
+  position: absolute;
+  width: 100% !important;
+  background: #fff;
+}
+#none-mobile-menu ul li a:hover, #none-mobile-menu ul li a:focus, #none-mobile-menu ul li a:hover #m-icon{
+    background: #E6E6E6;
+    color: #56CCC8;
+}
+#none-mobile-menu ul li a, #m-icon, #none-mobile-menu ul li a:hover, #none-mobile-menu ul li a:focus, #none-mobile-menu ul li a:hover #m-icon{
+    -webkit-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+    -moz-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+    -o-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+    -ms-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+    transition:background 0.3s linear 0s, color 0.3s linear 0s;
+}
+#m-icon {
+  color: #c5cdd1;
+  font-size: 17px;
+  line-height: 17px;
+  margin: 0 15px 0 0;
+}
+#current{}
+#none-mobile-menu ul li:first-child{};
+#none-mobile-menu ul li:last-child{
+    border-bottom: 0;
+}
+
+/******* ---- Menus-left-part-1-12 Style ---- *******/
+.menus-left-part-1-12{}
+.contact-details {
+  background: none repeat scroll 0 0 #c5cdd1;
+}
+#details {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#details li {
+  display: block;
+  overflow: hidden;
+  padding: 0 0 23px 25px;
+}
+#details li:first-child{
+    padding-top: 25px;
+}
+#cd-icon {
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  line-height: 20px;
+  width: 15%;
+}
+#cd {
+  float: left;
+  text-align: left;
+  width: 80%;
+}
+#cd p {
+  color: #fff;
+  font-family: roboto;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin: 0;
+  position: relative;
+  top: -3px;
+}
+
+/******* ---- Menus-left-part-2 Style ---- *******/
+.menus-left-part-1{
+    padding-right: 0 !important;
+}
+.menus-left-part-2 {
+  padding-left: 0 !important;
+}
+.menus-left-part-2-sub {}
+
+/******* ---- Submenu Style ---- *******/
+#submenu{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#submenusub{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#submenu li {
+  background: none repeat scroll 0 0 #152840;
+  border-bottom: 1px solid #49627D;
+}
+
+#submenu li, #submenu li:hover, #submenu li:focus, #curent{
+    -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+#sub-key {
+  padding: 25.5px 25px 26px;
+}
+#submenu li:hover, #submenu li:focus{
+    background: #263A54;
+}
+#submenu li:last-child{
+    border-bottom: none;
+}
+#submenu li a{}
+#submenu li a:hover, #submenu li a:focus{}
+#curent{
+    background: #263A54 !important;
+}
+#s-hd {
+  color: #56ccc8;
+  display: block;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+}
+#shd-icon {
+  color: #56CCC8;
+  font-size: 20px;
+  line-height: 21px;
+  float: right;
+}
+#submenusub li {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  margin: 0;
+  padding: 0;
+}
+#submenusub li a {
+  color: #fff;
+  font-family: roboto;
+  font-size: 14px;
+}
+#submenusub li a:hover, #submenusub li a:focus{}
+
+/******* ---- Social-right Style ---- *******/
+.social-right{
+    margin-right: 0%;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/******* ---- Social-right-part-1 Style ---- *******/
+.social-foge{
+  padding-left: 0;
+}
+.social-right-part-1{}
+
+/******* ---- List-social Styel ---- *******/
+.list-social {
+  padding-right: 0;
+}
+#social-list-left {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  height: 303px;
+  overflow: hidden;
+  padding: 26px;
+  width: 100%;
+}
+#social-list-right {
+  display: block;
+  height: 303px;
+  overflow: hidden;
+  width: 100%;
+}
+#listsocial {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#listsocial li {
+  padding-bottom: 25px;
+}
+#listsocial li:first-child{}
+#listsocial li:last-child{
+    padding-bottom: 0;
+}
+#listsocial li a {
+  color: #6a7175;
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 16px;
+}
+#listsocial li a:hover, #listsocial li a:active{
+    color: #56CCC8;
+}
+#listsocial li a:hover #con{
+    background: #56CCC8;
+}
+#dol{
+    color: #56CCC8 !important;
+}
+.twt{
+    background: #56CCC8 !important;
+}
+#con {
+  background: none repeat scroll 0 0 #c5cdd1;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-align: center;
+  width: 30px;
+}
+.fb{}
+.twt{}
+.gplus{}
+.rss{}
+.pntst{}
+
+/******* ---- Type-social Style ---- *******/
+.type-social{}
+.facbook{}
+#facbook, #twitor {
+  display: block;
+  overflow: hidden;
+  padding: 0 20px;
+}
+#facbook:hover{
+    background: #5971c2;
+}
+#facbook {
+  background: none repeat scroll 0 0 #4d6baa;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+.twitor{}
+#facbook, #twitor, #facbook:hover, #twitor:hover{
+    -webkit-transition:background 0.3s linear 0s;
+    -moz-transition:background 0.3s linear 0s;
+    -o-transition:background 0.3s linear 0s;
+    -ms-transition:background 0.3s linear 0s;
+    transition:background 0.3s linear 0s;
+}
+#twitor:hover{
+    background:#69ccdc; 
+}
+#twitor {
+  background: none repeat scroll 0 0 #56ccc8;
+  cursor: pointer;
+}
+.t-type {
+  padding: 26px 0 36.4px;
+}
+#t-icon {
+  color: #fff;
+  font-size: 37px;
+  line-height: 50px;
+}
+.fbt{}
+.twtp{}
+
+.t-size{}
+.kb {
+  color: #fff;
+  float: left;
+  font-size: 15px;
+  text-align: left;
+  width: 50%;
+}
+.follow{
+  font-size: 15px;
+  color: #fff;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.ios {
+  font-size: 20px;
+  left: 9px;
+  position: relative;
+  top: 4px;
+}
+
+/******* ---- Social-right-part-2 Style ---- *******/
+.social-right-part-2{}
+.promot-social {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  margin-top: 2%;
+  overflow: hidden;
+  padding: 15px;
+}
+.ps-header {
+  text-align: center;
+}
+.ps-header h3 {
+  color: #475055;
+  font-family: roboto;
+  font-size: 27px;
+  line-height: 40px;
+  margin: 0;
+}
+.ps-header p {
+  color: #475055;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+#ps-social {
+  list-style: outside none none;
+  margin: 25px auto 0;
+  padding: 0;
+}
+#ps-social li {
+  float: left;
+  padding-right: 2%;
+}
+#ps-social li:last-child{
+    padding-right: 0;
+}
+#ps-social > li:first-child {
+  margin-left: 33%;
+}
+#ps-social li a{}
+#ps-social li a:hover, #ps-social li a:focus{}
+#mos {
+  font-size: 18px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: #787878;
+  line-height: 35px;
+  text-align: center;
+}
+.psfb{
+    background: #4D6BAA !important;
+}
+.pstwt{
+    background: #4FC6F8 !important;
+}
+.psgplus{
+    background: #EA6060 !important;
+}
+.psin{
+    background: #238CC8 !important;
+}
+
+/******* ---- Social-right-part-3 Style ---- *******/
+.social-right-part-3{}
+.news-letter {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  margin-top: 1.5%;
+  overflow: hidden;
+  padding: 14px;
+}
+#mc_embed_signup div.mce_inline_error {
+  display: none !important;
+}
+.news-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.news-header h3{
+  color: #475055;
+  font-family: roboto;
+  font-size: 27px;
+  line-height: 40px;
+  margin: 0;
+}
+.news-header p{
+  color: #475055;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.news-mail{}
+.subscribe {
+  text-align: center;
+  width: 100%;
+  margin-left: 24%;
+}
+.mc-field-group {
+  float: left;
+  width: 36%;
+}
+.subscribe input[type="email"] {
+  background: none repeat scroll 0 0 #fff !important;
+  border: 1px solid #e1e1e1 !important;
+  height: 38px;
+  padding: 4px 2px 4px 9px;
+}
+.mce_inline_error {
+  
+}
+.clear {
+  width: 15%;
+  float: left;
+}
+.clear input[type="submit"] {
+  background: none repeat scroll 0 0 #ea6060;
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
+  color: #fff;
+  font-size: 12px;
+  height: 38px;
+  text-transform: uppercase;
+  width: 80px;
+}
+
+/******* ---- St-Slider Style ---- *******/
+#st-section-2{}
+
+#st-slider{}
+#slider{}
+.left-indicator {
+  left: 0;
+  position: absolute;
+}
+.right-indicator {
+  right: 0;
+  position: absolute;
+}
+#slider-header{}
+#slider-header h2 {
+  font-size: 46px;
+  margin: 0 0 7px;
+  line-height: 53px;
+  color: #fff;
+}
+#slider-header p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+#view {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 0;
+  color: #fff;
+}
+
+/******* ---- St-section-3 Style ---- *******/
+#st-section-3 {}
+
+/******* ---- Tube-cast-1 Style ---- *******/
+.tube-cast-1{
+  padding-right: 0;
+}
+.tube-cast-1-11 {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  height: 300px;
+  overflow: hidden;
+  padding: 50px 24px 40px 95px;
+  position: relative;
+  width: 100%;
+}
+.tube-header{}
+.tube-header h2 {
+  color: #4f575c;
+  font-family: roboto;
+  font-size: 25px;
+  line-height: 28px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+.tube-cast-1 p {
+  color: #4f575c;
+  font-family: roboto;
+  font-size: 14px;
+  margin: 0;
+  line-height: 19px;
+}
+.ago {
+  color: #c1c1c1;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 55px;
+}
+
+#readmore{
+    font-size: 14px;
+    color: #EA6060;
+}
+#video-icon {
+  background: none repeat scroll 0 0 #ea6060;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  width: 50px;
+}
+
+/******* ---- Tube-cast-2 Style ---- *******/
+.tube-cast-2{
+  padding-left: 0;
+}
+.tube-cast-2-11 {
+  display: block;
+  height: 300px;
+  overflow-x: hidden;
+  width: 100%;
+}
+#subscribe {
+  background: none repeat scroll 0 0 #1f3045;
+  display: block;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  width: 15%;
+}
+#subscribe ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#subscribe ul li{}
+#subscribe ul li:first-child{}
+#subscribe ul li:last-child{}
+#subscribe ul li a{
+    text-align: center;
+}
+#subscribe ul li a:hover, #subscribe ul li a:focus{}
+.text {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 23px 0;
+}
+#dumi-icon {
+  font-size: 30px;
+}
+#dumi-icon:hover {
+  color: #EA6060;
+}
+#tube-video {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  width: 85%;
+}
+#frame {
+  width: 100%;
+  height: 100%;
+}
+
+/******* ---- St-section-4 Style ---- *******/
+#st-section-4{}
+.instragram-total{
+  display: block;
+  height: 274px;
+  overflow: hidden;
+  width: 100%;
+}
+/******* ---- St-heart-share-1 Style ---- *******/
+.st-heart-share-1{}
+.st-heart-share-1-11 {
+  background: none repeat scroll 0 0 #1f3045;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  padding: 104px 78px;
+  width: 100%;
+}
+.heart-share{}
+#share-p{
+  width: 45%;
+  float: left;
+}
+#heart-p{
+  width: 45%;
+  float: left;
+}
+.heart-share p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 8% 0 12%;
+  text-align: center;
+}
+#heartshrare {
+  font-size: 30px;
+}
+.share-o{
+    color: #fff;
+}
+.heart-o{
+    color: #EA6060;
+}
+
+/******* ---- St-instagram-1 Style ---- *******/
+.left-point {
+  padding-right: 0;
+}
+.right-point {
+  padding-left: 0;
+}
+.st-instagram-1 {
+  padding-left: 0;
+}
+.st-instagram-1-11 {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  overflow: hidden;
+  padding: 46px 30px 30px 95px;
+  position: relative;
+  width: 100%;
+}
+.st-instagram-1-12 {
+  background: none repeat scroll 0 0 #787878;
+  display: block;
+  height: 275px;
+  overflow: hidden;
+  width: 100%;
+}
+.instagram{}
+.instagram h2 {
+  color: #4f575c;
+  font-family: roboto;
+  font-size: 25px;
+  line-height: 28px;
+  margin: 0;
+}
+.instagram span {
+  color: #c1c1c1;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.st-instagram-1-11 p {
+  color: #4f575c;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+#read{
+    font-size: 14px;
+    color: #EA6060;
+}
+#camera {
+  background: none repeat scroll 0 0 #4bc7c7;
+  color: #fff;
+  font-size: 22px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  width: 50px;
+}
+
+.upcoming{}
+
+/******* ---- Site St-section-5 Style ---- *******/
+#st-section-5{}
+
+/******* ---- Aside Style ---- *******/
+#aside{}
+
+.aside-list-1, .aside-list-2, .aside-list-3 {
+  margin-bottom: 20px;
+}
+/******* ---- Aside-list-1 Style ---- *******/
+.alex{}
+#alex-list {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#alex-list li {
+  background: none repeat scroll 0 0 #4fc6f8;
+  border-bottom: 1px solid #7BD4FA;
+}
+#alex-list li:hover{}
+#alex-list li:last-child{
+    border-bottom: none;
+}
+#alex-list li a{}
+#alex-list li a:hover, #alex-list li a:focus{}
+
+.alex-header {
+  padding: 18px 0;
+}
+.alex-header h3 {
+  color: #fff;
+  font-family: roboto;
+  font-size: 21px;
+  line-height: 35px;
+  margin: 0;
+  text-align: center;
+}
+.alex-header span {
+  font-size: 18px;
+}
+#alex {
+  font-size: 25px;
+  padding-left: 20%;
+}
+.adc {
+  padding: 25px 25px 25px 10%;
+  text-align: left;
+}
+.adc p {
+  color: #fff;
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.adc p strong{}
+.hour {
+  color: #fff;
+  font-size: 16px;
+  font-family: roboto;
+  line-height: 17px;
+}
+
+/******* ---- View-stories Style ---- *******/
+.view-st{}
+.view-stories {
+  background: none repeat scroll 0 0 #ea6060;
+  display: block;
+  overflow: hidden;
+  padding: 14% 24% 10%;
+}
+.view-header{}
+.view-header h2 {
+  font-size: 36px;
+  font-family: roboto;
+  color: #fff;
+  font-weight: 100;
+  margin: 0;
+  line-height: 46px;
+}
+#view-icon {
+  color: #fff;
+  font-size: 36px;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+/******* ---- Aside-list-2 Style ---- *******/
+.whats-hot {
+  background: none repeat scroll 0 0 #fff;
+}
+.what-header {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 20px 0;
+}
+.whats-hot h3 {
+  color: #475055;
+  font-family: roboto;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  padding-left: 20px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-theme {
+  padding: 15px 15px 15px 20px;
+}
+.media {
+  margin-bottom: 10px !important;
+  overflow: hidden;
+  display: block;
+}
+.media-left {
+  float: left;
+  width: 25%;
+}
+.media-object {
+  height: 60px !important;
+  width: 60px !important;
+}
+.media-heading {
+  color: #4c5559;
+  font-family: roboto;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 0 5px;
+}
+#owl-ago {
+  color: #a3abaf;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: roboto;
+}
+
+
+/******* ---- Aside-list-3 Style ---- *******/
+.question {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  overflow: hidden;
+  padding: 20px 30px 30px;
+}
+.ques-header > h2 {
+  color: #475055;
+  font-size: 31px;
+  line-height: 42px;
+  margin: 0 0 20px;
+}
+.form-control {
+  border-radius: 0;
+  color: #ccc;
+  font-size: 19px;
+  font-weight: 100;
+  height: 46px;
+  padding: 10px;
+}
+.btn.btn-danger {
+  font-size: 17px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+
+/******* ---- One-third-list-1 ---- *******/
+.one-third-list-1, .one-third-list-2, .one-third-list-3, .one-third-list-4{
+    margin-bottom: 20px;
+}
+.dome {
+  padding: 0;
+}
+
+/******* ---- One-third-list-2 Style ---- *******/
+.pick-new {
+  padding-left: 0;
+}
+.dual-box{}
+.box-1 {
+  background: none repeat scroll 0 0 #787878;
+  display: block;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+#sub {
+  background: url("../image/new.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 127px;
+  position: absolute;
+  width: 127px;
+  background-size: 60% 60%;
+  top: 0px;
+  left: 0;
+}
+
+.box-2 {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  overflow: hidden;
+  padding: 50px 0 35px 70px;
+  position: relative;
+}
+.box-2-header {
+  float: right;
+  width: 92%;
+  padding-right: 6%;
+}
+.box-2-header h2 {
+  color: #4b5459;
+  font-family: roboto;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.box-2-header p {
+  color: #4b5459;
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+#info {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0 0 0 8%;
+  width: 100%;
+}
+#info li {
+  float: left;
+  padding: 0 22px 0 0px;
+}
+#info li:last-child{
+    padding-right: 0;
+}
+#info li a {
+  color: #4b5459;
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 15px;
+}
+#info li a:hover, #info li a:focus{}
+#info-icon {
+  color: #4bc7c7;
+  padding-right: 8px;
+  font-size: 16px;
+  line-height: 17px;
+}
+#on-icon {
+  background: none repeat scroll 0 0 #4bc7c7;
+  color: #fff;
+  font-size: 18px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 42px;
+  width: 50px;
+}
+
+/******* ---- one-third-list-3 ---- *******/
+.one-third-list-3{}
+.quote {
+  padding-left: 0;
+}
+.block-quote {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  overflow: hidden;
+  padding: 35px 3px 30px 85px;
+  position: relative;
+}
+.block-quote blockquote {
+  border-left: medium none;
+  margin: 0;
+}
+.block-quote p {
+  color: #4b5459;
+  font-family: roboto;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 33px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 0;
+}
+#quote-icon {
+  background: none repeat scroll 0 0 #4bc7c7;
+  color: #fff;
+  font-size: 22px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 50px;
+}
+
+/******* ---- One-third-list-4 ---- *******/
+.tab-pan {
+  padding-left: 0;
+}
+#tab-panel {
+  background: none repeat scroll 0 0 #fff;
+}
+#tb-left, #tb-right {
+  padding: 63px 10px 20px 30px;
+}
+.media-body h4 {
+  margin: 0;
+  color: #475055;
+  font-size: 18px;
+  line-height: 25px;
+}
+.media-body > p {
+  color: #999999;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 21px;
+  margin: 0;
+  padding: 7px 0 0;
+}
+.media-body > p.pg {
+  color: #475055;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 40px 0 18px 0;
+}
+.media-body > span {
+  color: #4bc7c7;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/******* ----  ---- *******/
+/******* ----  ---- *******/
+
+
+/* ==========================================================================
+   Helper classes
+========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

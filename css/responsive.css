@@ -1,0 +1,417 @@
+/**********************************************/
+	   /*  Responsive/adaptive stuff */
+/**********************************************/
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 980px){
+
+#barnav-left li a {
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+}
+#sub-key {
+  padding: 30px 25px 30px;
+}
+#listsocial li {
+  padding-bottom: 23px;
+}
+#facbook, #twitor {
+  padding: 1px 15px;
+}
+.kb {
+  font-size: 14px;
+  width: 30%;
+}
+.follow {
+  font-size: 14px;
+  width: 70%;
+}
+.news-letter {
+  padding: 33px 11px;
+}
+#details li {
+  padding: 17px 0 23px 14px;
+}
+.text {
+  padding: 45% 0;
+}
+.tube-cast-1-11 {
+	height: 360px;
+	padding: 50px 12px 40px 62px;
+}
+.tube-cast-11{
+	width: 360px;
+}
+#tube-video {
+  height: 360px;
+  width: 85%;
+}
+#frame {
+  height: 100%;
+  width: 100%;
+}
+#share-p {
+  margin-bottom: 80px;
+  width: 100%;
+}
+#heart-p {
+  width: 100%;
+}
+.st-instagram-1-12 {
+  height: 411px;
+}
+.view-stories {
+  padding: 21% 24% 18%;
+}
+
+#s-hd {
+  font-size: 16px;
+  line-height: 25.4px;
+}
+
+.news-header h3 {
+  line-height: 37px;
+}
+.owl-theme .owl-controls .owl-page span {
+  margin: 5px 2px;
+}
+.subscribe {
+  margin-left: 10%;
+}
+.mc-field-group {
+  width: 55%;
+}
+.media-left {
+  width: 35%;
+}
+.st-heart-share-1-11 {
+  padding: 76px 78px;
+}
+.st-instagram-1-11 {
+  padding: 46px 30px 30px 70px;
+}
+.instragram-total, .st-heart-share-1-11, .st-instagram-1-12 {
+  height: 343px;
+}
+#tb-left, #tb-right {
+  padding: 35px 10px 20px 18px;
+}
+.question {
+  padding: 12px;
+}
+.ques-header > h2 {
+  font-size: 26px;
+}
+.media-body h4 {
+  font-size: 16px;
+  line-height: 16px;
+}
+.form-control {
+  font-size: 15px;
+}
+
+
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+
+
+
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#barnav-left li a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#facbook, #twitor {
+  padding: 1px 15px;
+}
+.kb {
+  font-size: 14px;
+  width: 30%;
+}
+.follow {
+  font-size: 14px;
+  width: 70%;
+}
+.question {
+  padding: 15px;
+}
+.ques-header > h2 {
+  font-size: 26px;
+}
+#details li {
+  padding: 0 0 29px 13px;
+}
+#cd p {
+  font-size: 13px;
+}
+#cd-icon {
+  font-size: 16px;
+  line-height: 16px;
+}
+.subscribe {
+  margin-left: 8%;
+}
+.mc-field-group {
+  width: 55%;
+}
+.heart-p{
+	width: 80%;
+}
+#share-p {
+	width: 80%;
+	margin-bottom: 55px;
+}
+.st-heart-share-1-11 {
+  padding: 76px 78px;
+}
+.st-instagram-1-11 {
+  padding: 46px 30px 30px 70px;
+}
+.instragram-total, .st-heart-share-1-11, .st-instagram-1-12 {
+  height: 343px;
+}
+.mc-field-group {
+  width: 56%;
+}
+.form-control {
+  font-size: 14px;
+}
+.ui-datepicker-header {
+  margin-bottom: 0;
+}
+.ui-datepicker-calendar td {
+  line-height: 28px;
+  width: 100px;
+}
+.view-stories {
+  padding: 20% 24% 19%;
+}
+.media-left {
+  width: 33%;
+}
+.media-object {
+  height: 50px !important;
+  width: 50px !important;
+}
+.owl-theme .owl-controls .owl-page span {
+  height: 10px;
+  margin: 5px 3px;
+  width: 10px;
+}
+.tube-cast-1, .tube-cast-2 {
+  height: 435px;
+  padding-right: 0;
+}
+.tube-cast-1-11, .tube-cast-2-11{
+	height: 100%;
+}
+.alex-header h3 {
+	font-size: 18px;
+}
+#alex{
+	padding-left: 0;
+}
+.text{
+	padding: 48% 0;
+}
+
+
+}
+
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+
+
+
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.nav > li > a {
+  padding: 17px 10%;
+}
+.menus-left-part-1-11 {
+  background: #FFFFFF;
+  display: none;
+  transition: display 0.3s linear 0s;
+}
+body.active .menus-left-part-1-11 {
+	display: block;
+	transition: display 0.3s linear 0s;
+}
+
+.subscribe {
+  margin-left: 25%;
+}
+.mc-field-group {
+	width: 40%;
+}
+.tube-cast-1-11 {
+  height: 100%;
+  padding: 40px 24px 25px 66px;
+}
+.tube-cast-1, .left-point, .menus-left-part-1{
+  padding-right: 15px!important;
+}
+.tube-cast-2, .st-instagram-1, .right-point, .pick-new, .quote, .tab-pan, .menus-left-part-2, .social-foge{
+  padding-left: 15px!important;
+}
+.dome {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.menus-left-part-1, .menus-left-part-2{
+  margin-bottom: 20px;
+}
+#facbook {
+  margin-bottom: 0;
+}
+.promot-social, .news-letter {
+	margin-top: 20px;
+}
+.nav-tab > li > a {
+  
+}
+.instragram-total {
+  height: 550px;
+}
+#tb-left, #tb-right {
+  padding: 30px 10px 20px 15px;
+}
+.media-left {
+	width: 20%;
+}
+.media-body > p.pg {
+  margin: 30px 0 10px;
+}
+.text {
+  font-size: 13px;
+  padding: 26px 0;
+}
+#dumi-icon {
+  font-size: 20px;
+}
+#slider-header h2 {
+  font-size: 39px;
+  line-height: 39px;
+}
+#slider-header p {
+  line-height: 19px;
+}
+#ps-social > li:first-child {
+  margin-left: 26%;
+}
+
+.list-social{
+	padding-right: 15px;
+}
+#social-list-right {
+	height: 290px;
+}
+
+.ui-datepicker-header {
+	margin-bottom: 1%;
+}
+.ui-datepicker-calendar td {
+	width: 100px;
+}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+
+.nav > li > a {
+  padding: 17px 10%;
+}
+.menus-left-part-1-11 {
+  background: #FFFFFF;
+  display: none;
+  transition: display 0.3s linear 0s;
+}
+body.active .menus-left-part-1-11 {
+	display: block;
+	transition: display 0.3s linear 0s;
+}
+
+.subscribe {
+  margin-left: 0;
+}
+.mc-field-group {
+  width: 70%;
+}
+.tube-cast-1-11 {
+  height: 100%;
+  padding: 40px 24px 25px 66px;
+}
+.tube-cast-1, .left-point, .menus-left-part-1{
+  padding-right: 15px!important;
+}
+.tube-cast-2, .st-instagram-1, .right-point, .pick-new, .quote, .tab-pan, .menus-left-part-2, .social-foge{
+  padding-left: 15px!important;
+}
+.dome {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.menus-left-part-1, .menus-left-part-2{
+  margin-bottom: 20px;
+}
+#facbook {
+  margin-bottom: 0;
+}
+.promot-social, .news-letter{
+  margin-top: 20px;
+}
+.nav-tab > li > a {
+  font-size: 11px;
+}
+.instragram-total {
+  height: 550px;
+}
+#tb-left, #tb-right {
+  padding: 30px 10px 20px 15px;
+}
+.media-left {
+  width: 30%;
+}
+.media-body > p.pg {
+  margin: 30px 0 10px;
+}
+.text {
+  font-size: 13px;
+  padding: 26px 0;
+}
+#dumi-icon {
+  font-size: 20px;
+}
+#slider-header h2 {
+  font-size: 39px;
+  line-height: 39px;
+}
+#slider-header p {
+  line-height: 19px;
+}
+#ps-social > li:first-child {
+  margin-left: 26%;
+}
+#social-list-right {
+height: 291px;
+}
+
+
+
+}
